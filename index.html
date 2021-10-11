@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cellcom TV Test</title>
+  </head>
+  <body>
+    <!-- <h1>Cellcom TV Test</h1> -->
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container">
+          <h1 class="logo">We Watch</h1>
+          <img class="logo-pic" src="pic/watchWeb.jpg" alt="We Watch" />
+        </div>
+        <div id="menuId" class="menu-container">
+          <ul class="menu-list">
+            <li
+              id="homeId"
+              class="menu-list-item btn active"
+              onclick="onHomeClick()"
+            >
+              Home
+            </li>
+            <li id="nowId" class="menu-list-item btn" onclick="onNowClick()">
+              Now Playing
+            </li>
+            <li
+              id="ratedId"
+              class="menu-list-item btn"
+              onclick="onRatedClick()"
+            >
+              Rated
+            </li>
+            <li id="favId" class="menu-list-item btn" onclick="onFavClick()">
+              Favorite
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container"></div>
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
